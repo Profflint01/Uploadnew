@@ -1,0 +1,15 @@
+name: versionaq
+version: '1.0.0-SNAPSHOT'
+main: de.profflint.versionaq.Versionaq
+api-version: '1.21'
+description: A plugin to create and manage minions.
+commands:
+  minion:
+    description: Main command to manage your minion.
+    usage: /<command> <spawn|status|remove|attackmobs>
+    aliases: [m]
+    permission: minionplugin.use
+permissions:
+  minionplugin.use:
+    description: Allows the player to use the minion commands.
+    default: true
